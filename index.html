@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Daily Goals</h1>
+    </header>
+
+    <main>
+        <section id="today">
+            <h2>Today's Progress</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="read-pages">
+                    <label for="read-pages">Read 100 Pages</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="watch-movie">
+                    <label for="watch-movie">Watch One Movie</label>
+                    <div class="details">
+                        <label for="movie-title">Movie Title:</label>
+                        <input type="text" id="movie-title">
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" id="work-contribution">
+                    <label for="work-contribution">Make One Contribution at Work</label>
+                    <div class="details">
+                        <label for="work-note">Note:</label>
+                        <textarea id="work-note"></textarea>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" id="go-to-gym">
+                    <label for="go-to-gym">Go to the Gym</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="read-news">
+                    <label for="read-news">Read News</label>
+                    <div class="details">
+                        <label for="news-source">Source/Notes:</label>
+                        <textarea id="news-source"></textarea>
+                    </div>
+                </li>
+            </ul>
+            <button id="save-progress">Save Progress</button>
+        </section>
+
+        <section id="past-entries">
+            <h2>Past Entries</h2>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Goal Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
